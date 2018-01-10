@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "985452416445",
+    "firebase_url": "https://bookinghospitalappointme-a3d3e.firebaseio.com",
+    "project_id": "bookinghospitalappointme-a3d3e",
+    "storage_bucket": "bookinghospitalappointme-a3d3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985452416445:android:432bdce6707bad2b",
+        "android_client_info": {
+          "package_name": "com.example.bha.bookinghospitalappointment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985452416445-bqesqr65iv5nlolrllcqbtpi4h9mht8m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bha.bookinghospitalappointment",
+            "certificate_hash": "efd76b3585732a27ce1207b0b8e3face31697f25"
+          }
+        },
+        {
+          "client_id": "985452416445-kra7vns7cisurl04u2j8q12ft98u1k7l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfT4bR0qOIurdRFLxaS7FMT2dEReCk_8k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985452416445-kra7vns7cisurl04u2j8q12ft98u1k7l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

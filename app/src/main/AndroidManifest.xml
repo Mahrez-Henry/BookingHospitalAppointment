@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.bha.bookinghospitalappointment">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login"
+                  android:launchMode="singleTask"
+
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".Register"
+                  android:label="@string/app_name"
+                  android:launchMode="singleInstance"
+
+                  ></activity>
+        <activity android:name=".Doctor_Choose"
+                  android:label="@string/app_name"
+            ></activity>
+        <activity android:name=".BookingGrid"
+                  android:label="@string/app_name"
+                  android:launchMode="singleInstance"
+
+            ></activity>
+        <activity android:name=".HospitalGrid"
+                  android:label="@string/app_name"
+                  android:launchMode="singleInstance"
+
+            ></activity>
+        <activity android:name=".DepartmentGrid"
+                  android:label="@string/app_name"
+
+            ></activity>
+        <activity android:name=".ViewGrid"
+                  android:label="@string/app_name"
+                  android:launchMode="singleInstance"
+            ></activity>
+        <activity android:name=".ViewGrid2"
+                  android:label="@string/app_name"
+                  android:launchMode="singleInstance"
+
+            ></activity>
+        <activity android:name=".Doctor_Times"
+                  android:label="@string/app_name"
+            ></activity>
+        <activity android:name=".Doctor_Patient"
+                  android:label="@string/app_name"
+            ></activity>
+        <activity android:name=".ProfilePage"
+                  android:label="@string/app_name"
+                  android:launchMode="singleInstance"
+            ></activity>
+    </application>
+
+</manifest>

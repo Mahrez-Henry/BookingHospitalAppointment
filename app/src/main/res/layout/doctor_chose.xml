@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgrownd"
+        android:alpha=".2"/>
+    <TextView
+        android:id="@+id/welcome_doctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back Doctor"
+        android:textColor="#ff4c864b"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="77dp"/>
+    <TextView
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Contenue As A :"
+        android:textSize="20sp"
+        android:textColor="#bb000000"
+        android:id="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/doc_botton"
+        android:id="@+id/Doctor"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/welcome_doctor"
+        android:layout_alignStart="@+id/welcome_doctor"
+        />
+
+    <ImageButton
+        android:id="@+id/Patiant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/welcome_doctor"
+        android:layout_alignRight="@+id/welcome_doctor"
+        android:layout_alignTop="@+id/Doctor"
+        android:background="@drawable/patiant_botton"/>
+</RelativeLayout>

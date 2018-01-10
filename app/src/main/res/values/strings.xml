@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Booking Hospital Appointment</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="Time">
+        <item>9:30</item>
+        <item>10:10</item>
+        <item>10:50</item>
+        <item>11:30</item>
+        <item>12:10</item>
+        <item>13:30</item>
+        <item>14:10</item>
+        <item>14:50</item>
+        <item>15:30</item>
+    </string-array>
+    <string-array name="TimeL">
+        <item>9:30 AM</item>
+        <item>10:10 AM</item>
+        <item>10:50 AM</item>
+        <item>11:30 AM</item>
+        <item>12:10 PM</item>
+        <item>1:30 PM</item>
+        <item>2:10 PM</item>
+        <item>2:50 PM</item>
+        <item>3:30 PM</item>
+    </string-array>
+    <string name="non">Select Your Doctor :</string>
+</resources>
